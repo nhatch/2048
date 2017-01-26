@@ -40,5 +40,5 @@ $(document).ready(function() {
 
     var scriptel = document.createElement('script');
     scriptel.src = script;
-    document.head.appendChild(scriptel);
+    //document.head.appendChild(scriptel);
 });

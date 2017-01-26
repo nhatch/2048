@@ -41,7 +41,7 @@ AiInputManager.prototype.step = function() {
     this.ai = new Ai();
     if (this.ai.init != null) this.ai.init();
   }
-  var move = this.ai.step(this.game.grid.copy());
+  var move = this.ai.step(this.game.grid.copy(), this.game.score);
   this.emit("move", move);
 };
 
