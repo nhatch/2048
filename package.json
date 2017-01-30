@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Teach a robot to play 2048.",
   "dependencies": {
+    "compute-argmax": "^1.0.0",
     "weblearn": "^2.0.0"
   },
   "devDependencies": {},
@@ -15,7 +16,15 @@
   "author": "Nathan Hatch",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/nhatch/2048"
+    "url": "git+https://github.com/nhatch/2048.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatch/2048/issues"
+  },
+  "homepage": "https://github.com/nhatch/2048#readme",
+  "main": "ai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

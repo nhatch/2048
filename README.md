@@ -1,12 +1,16 @@
 # About this fork
 
-Use deep Q-learning to train an AI for 2048. Perhaps this is not the best approach for 2048, but it's a good way to learn about DQL.
+This fork uses deep Q-learning to train an AI for 2048. Perhaps this is not the best approach for 2048, but it's a good way to learn about DQL.
 
 # Try it out
 
-`npm install`
-`browserify ai.js > bundle.js`
-`open index.html` (i.e. visit index.html in a browser)
+```
+npm install
+browserify ai.js > bundle.js
+open index.html
+```
+
+(i.e. visit index.html in a browser)
 
 # Acknowledgements and related work
 
